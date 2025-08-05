@@ -37,7 +37,7 @@ function App() {
     
     try {
       // 使用EventSourcePolyfill处理SSE
-      const eventSource = new EventSourcePolyfill(`http://127.0.0.1:65535/chat?message=${encodeURIComponent(inputValue)}`, {
+      const eventSource = new EventSourcePolyfill(`http://127.0.0.1:3000/chat?message=${encodeURIComponent(inputValue)}`, {
         headers: {
           'Content-Type': 'text/event-stream',
         }

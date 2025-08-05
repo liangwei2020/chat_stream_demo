@@ -26,10 +26,10 @@
       "@@/*": [
         "src/.umi/*"
       ],
-      "@umijs/max": [
-        "../../node_modules/.pnpm/umi@4.4.12_@babel+core@7.28.0_@types+node@24.2.0_@types+react@18.3.23_eslint@8.35.0_lightning_nkr3wmbevlz75sxwzmo4cjffre/node_modules/umi"
+      "umi": [
+        "../../node_modules/.pnpm/umi@4.4.12_@babel+core@7.23.6_@types+node@24.2.0_@types+react@18.3.23_eslint@8.57.1_lig_e86606b29712655841fa6fcb7a7f491f/node_modules/umi"
       ],
-      "@umijs/max/typings": [
+      "umi/typings": [
         "src/.umi/typings"
       ]
     }

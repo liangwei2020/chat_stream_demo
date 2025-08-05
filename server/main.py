@@ -6,6 +6,9 @@ from sse_starlette.sse import EventSourceResponse
 import os
 import json
 import re
+from dotenv import load_dotenv
+
+load_dotenv()  # 加载.env文件中的环境变量
 
 app = FastAPI()
 
@@ -23,7 +26,7 @@ DEEPSEEK_ENDPOINT = "https://api.deepseek.com/v1/chat/completions"
 class ChatMessage(BaseModel):
     message: str
 
-@app.get("/chat")  # 添加GET方法支持
+@app.get("/chat")
 @app.post("/chat")
 async def chat_stream(request: Request, message: str = None):
     # 尝试从查询参数获取消息
@@ -143,4 +146,4 @@ async def chat_stream(request: Request, message: str = None):
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=65535)
+    uvicorn.run(app, host="0.0.0.0", port=3000)

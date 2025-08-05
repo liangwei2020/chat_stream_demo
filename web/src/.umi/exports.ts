@@ -5,19 +5,12 @@
 export { defineApp } from './core/defineApp'
 export type { RuntimeConfig } from './core/defineApp'
 // plugins
-export { Access, useAccess, useAccessMarkedRoutes } from '/www/chat_stream_demo/web/src/.umi/plugin-access';
-export { Provider, useModel } from '/www/chat_stream_demo/web/src/.umi/plugin-model';
-export { useRequest, UseRequestProvider, request, getRequestInstance } from '/www/chat_stream_demo/web/src/.umi/plugin-request';
 // plugins types.d.ts
-export * from '/www/chat_stream_demo/web/src/.umi/plugin-access/types.d';
-export * from '/www/chat_stream_demo/web/src/.umi/plugin-antd/types.d';
-export * from '/www/chat_stream_demo/web/src/.umi/plugin-layout/types.d';
-export * from '/www/chat_stream_demo/web/src/.umi/plugin-request/types.d';
 // @umijs/renderer-*
-export { createBrowserHistory, createHashHistory, createMemoryHistory, Helmet, HelmetProvider, createSearchParams, generatePath, matchPath, matchRoutes, Navigate, NavLink, Outlet, resolvePath, useLocation, useMatch, useNavigate, useOutlet, useOutletContext, useParams, useResolvedPath, useRoutes, useSearchParams, useAppData, useClientLoaderData, useLoaderData, useRouteProps, useSelectedRoutes, useServerLoaderData, renderClient, __getRoot, Link, useRouteData, __useFetcher, withRouter } from '/www/chat_stream_demo/web/node_modules/.pnpm/@umijs+renderer-react@4.4.12_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/@umijs/renderer-react';
-export type { History, ClientLoader } from '/www/chat_stream_demo/web/node_modules/.pnpm/@umijs+renderer-react@4.4.12_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/@umijs/renderer-react'
+export { createBrowserHistory, createHashHistory, createMemoryHistory, Helmet, HelmetProvider, createSearchParams, generatePath, matchPath, matchRoutes, Navigate, NavLink, Outlet, resolvePath, useLocation, useMatch, useNavigate, useOutlet, useOutletContext, useParams, useResolvedPath, useRoutes, useSearchParams, useAppData, useClientLoaderData, useLoaderData, useRouteProps, useSelectedRoutes, useServerLoaderData, renderClient, __getRoot, Link, useRouteData, __useFetcher, withRouter } from '/home/lw/project/chat_stream_demo/web/node_modules/.pnpm/@umijs+renderer-react@4.4.12_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/@umijs/renderer-react';
+export type { History, ClientLoader } from '/home/lw/project/chat_stream_demo/web/node_modules/.pnpm/@umijs+renderer-react@4.4.12_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/@umijs/renderer-react'
 // umi/client/client/plugin
-export { ApplyPluginsType, PluginManager } from '/www/chat_stream_demo/web/node_modules/.pnpm/umi@4.4.12_@babel+core@7.28.0_@types+node@24.2.0_@types+react@18.3.23_eslint@8.35.0_lightning_nkr3wmbevlz75sxwzmo4cjffre/node_modules/umi/client/client/plugin.js';
+export { ApplyPluginsType, PluginManager } from '/home/lw/project/chat_stream_demo/web/node_modules/.pnpm/umi@4.4.12_@babel+core@7.23.6_@types+node@24.2.0_@types+react@18.3.23_eslint@8.57.1_lig_e86606b29712655841fa6fcb7a7f491f/node_modules/umi/client/client/plugin.js';
 export { history, createHistory } from './core/history';
 export { terminal } from './core/terminal';
 // react ssr
