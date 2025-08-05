@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "importHelpers": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "baseUrl": "../../",
+    "strict": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "@@/*": [
+        "src/.umi/*"
+      ],
+      "@umijs/max": [
+        "../../node_modules/.pnpm/umi@4.4.12_@babel+core@7.28.0_@types+node@24.2.0_@types+react@18.3.23_eslint@8.35.0_lightning_nkr3wmbevlz75sxwzmo4cjffre/node_modules/umi"
+      ],
+      "@umijs/max/typings": [
+        "src/.umi/typings"
+      ]
+    }
+  },
+  "include": [
+    "../../.umirc.ts",
+    "../../.umirc.*.ts",
+    "../../**/*.d.ts",
+    "../../**/*.ts",
+    "../../**/*.tsx"
+  ]
+}
